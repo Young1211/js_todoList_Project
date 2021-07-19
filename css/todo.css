@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+*{margin:0; padding:0; border:0; outline:0; box-sizing: border-box;}
+li{list-style:none; font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';}
+.pa{position: absolute;}
+.pr{position: relative;}
+.fl{float: left;}
+.cf:after{ content: ""; display: block; clear: both; }
+.w1200{width:1200px; margin: auto;}
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f2556+0,a05093+50,e38091+100 */
+body{width:100%; height:1080px;
+background: #2f2556; /* Old browsers */ background: -moz-linear-gradient(top,  #2f2556 0%, #a05093 50%, #e38091 100%) no-repeat; /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #2f2556 0%,#a05093 50%,#e38091 100%) no-repeat; /* Chrome10-25,Safari5.1-6 */ 
+background: linear-gradient(to bottom,  #2f2556 0%,#a05093 50%,#e38091 100%) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2556', endColorstr='#e38091',GradientType=0 ); /* IE6-9 */}
+
+/* header */
+.header{width:100%; height:98px; background-color:#262528; opacity:1.0;}
+.header .pa{width:100%; top:0; height:98px; background-color:#262528; opacity:1.0;  position:fixed; top:0; left:0;}
+.btnshare{position:fixed; top:30px; right:60px; margin-top:-10px;color:#262528; background-color:#EE8529; width:172px; height :52px; padding-top:10px; text-align:center; font-size:24px; border-radius:30px; margin-right:60px; font-weight:bold;}
+.btnshare:hover{position:fixed; top:30px; right:60px; color:#262528; background-color:#d96c00; width:172px; height:52px; padding-top:10px; text-align:center; font-size:24px;  border-radius:30px; margin-right:60px; font-weight:bold;}
+.logo img{margin-left:60px; width:400px; height:98px; position:fixed; top:0; left:30px;}
+.mainhead>h4{float:left;}
+.mainhead>.iconplus{float:right; margin-right: 23px; margin-top:-23px;}
+.headwrap{width:1920px; clear:both; height:98px; margin:0 auto; position:fixed; top:0; left:30px;}
+
+/*content */
+.mainwrap{width:100%; height:875px;}
+.mainwrap>.pa{width:100%; height:875px;}
+#content{width:1200px; height:875px; margin:0 auto; background:rgba(0,0,0,.3); color:#fff; margin-top:46px; font-size:20px;}
+.mainhead{padding:80px 100px 32px 80px;} 
+.mainhead h2{font-size:47px; color:#fff; font-family:'yg-jalnan';}
+.mainhead h4{font-size:20px; font-weight:lighter; color:#fff;  line-height:28px; margin-left: 20px;  padding-bottom:10px; margin-bottom:-25px; font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';}
+.mainhead .goobun{border-bottom:1px solid #fff; padding-top:50px;}
+.mainmain{width:1200px; margin:0 auto; height:685px; padding:0 100px 32px 80px; }
+.mainmain>.ull{margin-left:125px;}
+.mainmain>.ull li{font-size:25px; color:#fff; margin-bottom:32px; font-weight:lighter;}
+.tab{background-color:rgba(0,0,0,.0001); padding:5px; width:885px; height:32px;}
+/* .tab:hover{background-color:rgba(0,0,0,.1); padding:5px; width:885px; height:32px;} */
+/* todolist 버튼 */
+#button{background-color: whitesmoke; width:50px; height:25px;border-radius: 20px;}
+
+.tab>input{width: 500px; border:none; margin-bottom:32px;}
+#input{width: 500px; border:none; margin-bottom:32px;}
+.btnResult{background-color:#262528; color:#fff; padding-top:15px; border-radius:40px; width:230px; height:64px; text-align:center; font-size:25px; margin-top:25px; clear:left;  margin:0 auto;}
+.btnResult:hover{background-color:#111111; color:#fff; padding-top:15px; border-radius:40px; text-align:center;  width:230px; height:64px; font-size:25px; margin-top:25px; clear:left;   margin:0 auto;}
+.plusico{float:left; width:70px; margin-top:350px;}
+.plusico>a>img{margin-bottom:24px; margin-left:160px; margin-top:7px;}
+/*유령구름*/
+.maincontent .ghostR{position:absolute; margin-left:1270px; margin-top:450px;}
+.maincontent .ghostL{position:absolute; margin-left:-300px; margin-top:600px;}
+#wrap .cloudR{float:right; margin-top:120px; margin-right:-10px;}
+#wrap .cloudL{float:left; margin-top:270px; margin-left:-20px;}
+.ull{float:left; width:700px; margin-top:64px;}
+.ull>li{padding-bottom: 62px; margin-left:32px; margin-top:-25px;}
+.ulc{float:left; width:100px; margin-left:200px; margin-right:-120px; margin-top:32px;}
+.ulr{float:left; width:10px; margin-left:13px; margin-top:32px;}
+.mainicon>.greenico{margin-bottom:-30px; margin-top:62px; display:block;} 
+.mainicon>.ulc>li{margin-bottom:20px;}
+.mainicon>.ulr>li{margin-bottom:26px;}
+.mainicon{margin-top:-50px;}
+
+.todoDelete{margin: 20px; background-color: lightblue;}
